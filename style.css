@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(225, 220, 220);
+}
+
+header{
+    margin-top: -20px;
+    background-color: yellow;
+    box-shadow: 10px 10px 10px 10px #999;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    font-size:4em ;
+    text-shadow: 6px 3px 2px  red;
+    border: 3px solid red;
+    height: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+}
+article{
+    text-align: center;
+    margin-top: 30px;
+}
+button{
+    margin: auto;
+    max-width: 90vw;
+}
+a{
+    text-decoration: none;
+}
+.inicio button{
+    font-size: 2em;
+    width: 800px;
+    height: 180px;
+    background-color: yellow;
+    color: white;
+    border: 3px solid red;
+    padding: 5px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    text-shadow: 6px 3px 2px  red;
+    cursor: pointer;
+
+}
+.pergunta{
+    margin-top: 0px;
+    text-align: center;
+    background-color: yellow;
+    color: white;
+    border: 3px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    text-shadow: 0px 3px 2px  red;
+    cursor: pointer;
+    
+}
+.pergunta h1{
+    font-size: 3em;
+    background-color: white;
+    color: black;
+}
+.pergunta h2{
+    font-size: 2em;
+    background-color: white;
+    color: black;
+}
+.pergunta button{
+    font-size: 2em;
+    width: 500px;
+    height: 80px;
+    background-color: yellow;
+    color: white;
+    border: 3px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    text-shadow: 6px 3px 2px  red;
+    cursor: pointer;
+
+
+}
+.resposta {
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    background-color: yellow;
+    color:black;
+    border: 3px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    text-shadow: 0px 3px 2px  red;
+    cursor: pointer;
+}
+.resposta h2{
+    background-color: white;
+    font-size: 2em;
+}
+footer{
+    text-align: center;
+    margin-top: 200px;
+    text-decoration: none;
+    
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
