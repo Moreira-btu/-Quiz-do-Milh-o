@@ -3,12 +3,18 @@ body{
 }
 
 header{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
     margin-top: -20px;
     background-color: yellow;
     box-shadow: 10px 10px 10px 10px #999;
 }
 
 header h1{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
     color: white;
     text-align: center;
     font-size:4em ;
@@ -46,6 +52,9 @@ a{
 
 }
 .pergunta{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 0px;
     text-align: center;
     background-color: yellow;
@@ -59,11 +68,18 @@ a{
     
 }
 .pergunta h1{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
     font-size: 3em;
     background-color: white;
     color: black;
 }
+
 .pergunta h2{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
     font-size: 2em;
     background-color: white;
     color: black;
@@ -84,6 +100,9 @@ a{
 
 }
 .resposta {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
     width: 500px;
     height: 80px;
     text-align: center;
@@ -97,6 +116,9 @@ a{
     cursor: pointer;
 }
 .resposta h2{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
     background-color: white;
     font-size: 2em;
 }
